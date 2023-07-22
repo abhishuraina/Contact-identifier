@@ -9,7 +9,8 @@ Make sure you have docker installed on your system
 
 ### set up instructions
 1. Clone the repo `git@github.com:abhishuraina/contact-identifier.git`.
-2. Run docker-compose up
+2. `cd contact-identifier`
+3. Run docker-compose up
 
 The docker-compose up will start the server at PORT:5000 (PORT exposed - 5000)
 
