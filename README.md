@@ -12,8 +12,8 @@ Make sure you have docker installed on your system
 2. `cd contact-identifier`
 3. Run docker-compose up
 
-The docker-compose up will start the server at PORT:5000 (PORT exposed - 5000)
+The docker-compose up will start the server at PORT:5001 (PORT exposed - 5001)
 
 |      API Endpoint to test       |  Method  |                      Payload                     |
 |---------------------------------|----------|--------------------------------------------------|
-| `http://localhost:5000/identify`|   POST   |  ```{ "email": string, "phoneNumber": number}``` |
+| `http://localhost:5001/identify`|   POST   |  ```{ "email": string, "phoneNumber": number}``` |
